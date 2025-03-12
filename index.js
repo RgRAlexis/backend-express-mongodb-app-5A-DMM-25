@@ -32,7 +32,7 @@ app.use('/api/locations', locationRoute);
 
 
 // Realizar petición de conexión a MongoDB
-mongoose.connect('mongodb+srv://RogerAlexis:Alexis161718@cluster0.2dwl5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster/BB')
+mongoose.connect('mongodb+srv://RogerAlexis:Alexis161718@cluster0.2dwl5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster/BB') //jdhfihdi
 .then(() => {
     console.log('Se estableció la conexión a base de datos exitosamente');
     app.listen(3000, () => {
